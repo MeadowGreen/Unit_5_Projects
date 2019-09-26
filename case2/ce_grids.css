@@ -19,7 +19,11 @@ div.row{
     width: 100%;
     clear: both;
 }
-
+div.row{
+    display:table;
+    clear:both;
+    content:"";
+}
 
 /* Grid Columns Styles */
 
@@ -64,7 +68,7 @@ div.container{
 div.row{
     box-sizing: border-box;
 }
-div.column{
+div [class^="column"]{
     box-sizing: border-box;
 }
 div.cell{
